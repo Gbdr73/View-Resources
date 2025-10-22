@@ -5,7 +5,6 @@ import android.os.Bundle
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
-import otus.gpb.homework.viewandresources.CartItem
 
 class CartActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

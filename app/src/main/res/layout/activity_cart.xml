@@ -31,7 +31,7 @@
         android:textColor="@color/input_color"
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/toolbar"></TextView>
+        app:layout_constraintTop_toBottomOf="@+id/toolbar" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -52,12 +52,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/recyclerView">
-
-        <View
-            android:id="@+id/line"
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:layout_margin="0dp" />
 
         <TextView
             android:id="@+id/textTotal"
